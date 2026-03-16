@@ -1,0 +1,529 @@
+[11-Mar-2026 15:33:38 Asia/Jakarta] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Router::get(), 2 passed in C:\xampp\htdocs\kas_silat\index.php on line 105 and exactly 3 expected in C:\xampp\htdocs\kas_silat\core\Router.php:28
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\index.php(105): Router->get('', Object(Closure))
+#1 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Router.php on line 28
+[11-Mar-2026 15:34:50 Asia/Jakarta] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Router::get(), 2 passed in C:\xampp\htdocs\kas_silat\index.php on line 105 and exactly 3 expected in C:\xampp\htdocs\kas_silat\core\Router.php:28
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\index.php(105): Router->get('', Object(Closure))
+#1 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Router.php on line 28
+[11-Mar-2026 15:34:57 Asia/Jakarta] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Router::get(), 2 passed in C:\xampp\htdocs\kas_silat\index.php on line 105 and exactly 3 expected in C:\xampp\htdocs\kas_silat\core\Router.php:28
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\index.php(105): Router->get('', Object(Closure))
+#1 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Router.php on line 28
+[11-Mar-2026 15:35:24 Asia/Jakarta] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Router::get(), 2 passed in C:\xampp\htdocs\kas_silat\index.php on line 105 and exactly 3 expected in C:\xampp\htdocs\kas_silat\core\Router.php:28
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\index.php(105): Router->get('', Object(Closure))
+#1 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Router.php on line 28
+[11-Mar-2026 19:09:04 Asia/Jakarta] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Router::get(), 2 passed in C:\xampp\htdocs\kas_silat\index.php on line 105 and exactly 3 expected in C:\xampp\htdocs\kas_silat\core\Router.php:28
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\index.php(105): Router->get('', Object(Closure))
+#1 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Router.php on line 28
+[11-Mar-2026 19:09:55 Asia/Jakarta] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Router::get(), 2 passed in C:\xampp\htdocs\kas_silat\index.php on line 105 and exactly 3 expected in C:\xampp\htdocs\kas_silat\core\Router.php:28
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\index.php(105): Router->get('', Object(Closure))
+#1 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Router.php on line 28
+[11-Mar-2026 19:11:31 Asia/Jakarta] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Router::get(), 2 passed in C:\xampp\htdocs\kas_silat\index.php on line 105 and exactly 3 expected in C:\xampp\htdocs\kas_silat\core\Router.php:28
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\index.php(105): Router->get('', Object(Closure))
+#1 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Router.php on line 28
+[11-Mar-2026 19:11:47 Asia/Jakarta] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Router::get(), 2 passed in C:\xampp\htdocs\kas_silat\index.php on line 105 and exactly 3 expected in C:\xampp\htdocs\kas_silat\core\Router.php:28
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\index.php(105): Router->get('', Object(Closure))
+#1 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Router.php on line 28
+[11-Mar-2026 19:17:17 Asia/Jakarta] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\kas_silat\config\database.php on line 8
+[11-Mar-2026 19:36:23 Asia/Jakarta] PHP Fatal error:  Uncaught Exception: View laporan/rekap_anggota tidak ditemukan in C:\xampp\htdocs\kas_silat\core\Controller.php:45
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('laporan/rekap_a...', Array)
+#1 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#3 C:\xampp\htdocs\kas_silat\controllers\LaporanController.php(97): Controller->render('laporan/rekap_a...', Array, 'layouts/main')
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(146): LaporanController->rekapAnggota()
+#5 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('LaporanControll...', 'rekapAnggota')
+#6 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('laporan/rekap-a...')
+#7 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Controller.php on line 45
+[11-Mar-2026 19:38:55 Asia/Jakarta] PHP Fatal error:  Uncaught Exception: View laporan/print tidak ditemukan in C:\xampp\htdocs\kas_silat\core\Controller.php:45
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\controllers\LaporanController.php(265): Controller->view('laporan/print', Array)
+#1 C:\xampp\htdocs\kas_silat\core\Router.php(146): LaporanController->print()
+#2 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('LaporanControll...', 'print')
+#3 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('laporan/print')
+#4 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Controller.php on line 45
+[11-Mar-2026 19:40:31 Asia/Jakarta] PHP Fatal error:  Uncaught Exception: View laporan/rekap_anggota tidak ditemukan in C:\xampp\htdocs\kas_silat\core\Controller.php:45
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('laporan/rekap_a...', Array)
+#1 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#3 C:\xampp\htdocs\kas_silat\controllers\LaporanController.php(97): Controller->render('laporan/rekap_a...', Array, 'layouts/main')
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(146): LaporanController->rekapAnggota()
+#5 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('LaporanControll...', 'rekapAnggota')
+#6 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('laporan/rekap-a...')
+#7 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Controller.php on line 45
+[11-Mar-2026 19:58:37 Asia/Jakarta] PHP Fatal error:  Uncaught Exception: View auth/forgot-password tidak ditemukan in C:\xampp\htdocs\kas_silat\core\Controller.php:45
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\controllers\AuthController.php(118): Controller->view('auth/forgot-pas...', Array)
+#1 C:\xampp\htdocs\kas_silat\core\Router.php(146): AuthController->forgotPassword()
+#2 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('AuthController', 'forgotPassword')
+#3 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('auth/forgot-pas...')
+#4 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Controller.php on line 45
+[11-Mar-2026 19:58:52 Asia/Jakarta] PHP Fatal error:  Uncaught Exception: View auth/forgot-password tidak ditemukan in C:\xampp\htdocs\kas_silat\core\Controller.php:45
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\controllers\AuthController.php(118): Controller->view('auth/forgot-pas...', Array)
+#1 C:\xampp\htdocs\kas_silat\core\Router.php(146): AuthController->forgotPassword()
+#2 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('AuthController', 'forgotPassword')
+#3 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('auth/forgot-pas...')
+#4 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Controller.php on line 45
+[11-Mar-2026 21:09:35 Asia/Jakarta] PHP Warning:  Undefined variable $total_anggota in C:\xampp\htdocs\kas_silat\controllers\DashboardController.php on line 9
+[11-Mar-2026 21:15:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Cannot access private property DashboardController::$anggotaModel in C:\xampp\htdocs\kas_silat\views\dashboard\index.php:96
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once()
+#1 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('dashboard/index', Array)
+#2 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#4 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(97): Controller->render('dashboard/index', Array, 'layouts/main')
+#5 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#6 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#7 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#8 {main}
+  thrown in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 96
+[11-Mar-2026 21:16:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Cannot access private property DashboardController::$anggotaModel in C:\xampp\htdocs\kas_silat\views\dashboard\index.php:96
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once()
+#1 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('dashboard/index', Array)
+#2 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#4 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(97): Controller->render('dashboard/index', Array, 'layouts/main')
+#5 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#6 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#7 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#8 {main}
+  thrown in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 96
+[11-Mar-2026 21:16:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Cannot access private property DashboardController::$anggotaModel in C:\xampp\htdocs\kas_silat\views\dashboard\index.php:96
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once()
+#1 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('dashboard/index', Array)
+#2 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#4 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(97): Controller->render('dashboard/index', Array, 'layouts/main')
+#5 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#6 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#7 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#8 {main}
+  thrown in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 96
+[11-Mar-2026 21:16:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Cannot access private property DashboardController::$anggotaModel in C:\xampp\htdocs\kas_silat\views\dashboard\index.php:96
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once()
+#1 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('dashboard/index', Array)
+#2 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#4 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(97): Controller->render('dashboard/index', Array, 'layouts/main')
+#5 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#6 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#7 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#8 {main}
+  thrown in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 96
+[11-Mar-2026 21:16:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Cannot access private property DashboardController::$anggotaModel in C:\xampp\htdocs\kas_silat\views\dashboard\index.php:96
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once()
+#1 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('dashboard/index', Array)
+#2 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#4 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(97): Controller->render('dashboard/index', Array, 'layouts/main')
+#5 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#6 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#7 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#8 {main}
+  thrown in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 96
+[11-Mar-2026 21:17:21 Asia/Jakarta] PHP Warning:  Undefined variable $statistik_kelas in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 307
+[11-Mar-2026 21:17:21 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\kas_silat\views\dashboard\index.php:307
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\views\dashboard\index.php(307): array_column(NULL, 'aktif')
+#1 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('dashboard/index', Array)
+#3 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#5 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(97): Controller->render('dashboard/index', Array, 'layouts/main')
+#6 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#7 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#8 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#9 {main}
+  thrown in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 307
+[11-Mar-2026 21:17:38 Asia/Jakarta] PHP Warning:  Undefined variable $statistik_kelas in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 307
+[11-Mar-2026 21:17:38 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\kas_silat\views\dashboard\index.php:307
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\views\dashboard\index.php(307): array_column(NULL, 'aktif')
+#1 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('dashboard/index', Array)
+#3 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#5 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(97): Controller->render('dashboard/index', Array, 'layouts/main')
+#6 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#7 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#8 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#9 {main}
+  thrown in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 307
+[11-Mar-2026 21:20:07 Asia/Jakarta] PHP Warning:  Undefined variable $statistik_kelas in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 81
+[11-Mar-2026 21:20:07 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 81
+[11-Mar-2026 21:20:07 Asia/Jakarta] PHP Warning:  Undefined variable $statistik_kelas in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 283
+[11-Mar-2026 21:20:07 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\kas_silat\views\dashboard\index.php:283
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\views\dashboard\index.php(283): array_column(NULL, 'aktif')
+#1 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('dashboard/index', Array)
+#3 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#5 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(97): Controller->render('dashboard/index', Array, 'layouts/main')
+#6 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#7 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#8 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#9 {main}
+  thrown in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 283
+[11-Mar-2026 21:20:55 Asia/Jakarta] PHP Warning:  Undefined variable $statistik_kelas in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 81
+[11-Mar-2026 21:20:55 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 81
+[11-Mar-2026 21:20:55 Asia/Jakarta] PHP Warning:  Undefined variable $statistik_kelas in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 283
+[11-Mar-2026 21:20:55 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\kas_silat\views\dashboard\index.php:283
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\views\dashboard\index.php(283): array_column(NULL, 'aktif')
+#1 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('dashboard/index', Array)
+#3 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#5 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(97): Controller->render('dashboard/index', Array, 'layouts/main')
+#6 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#7 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#8 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#9 {main}
+  thrown in C:\xampp\htdocs\kas_silat\views\dashboard\index.php on line 283
+[11-Mar-2026 21:57:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Cannot access private property AnggotaController::$kasMasukModel in C:\xampp\htdocs\kas_silat\views\anggota\show.php:84
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once()
+#1 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('anggota/show', Array)
+#2 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#4 C:\xampp\htdocs\kas_silat\controllers\AnggotaController.php(302): Controller->render('anggota/show', Array, 'layouts/main')
+#5 C:\xampp\htdocs\kas_silat\core\Router.php(146): AnggotaController->show('11')
+#6 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('AnggotaControll...', 'show')
+#7 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('anggota/show/11')
+#8 {main}
+  thrown in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 84
+[11-Mar-2026 21:58:22 Asia/Jakarta] PHP Warning:  Undefined property: Router::$auth in C:\xampp\htdocs\kas_silat\controllers\AnggotaController.php on line 14
+[11-Mar-2026 21:58:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function hasRole() on null in C:\xampp\htdocs\kas_silat\controllers\AnggotaController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Router.php(140): require_once()
+#1 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('AnggotaControll...', 'show')
+#2 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('anggota/show/11')
+#3 {main}
+  thrown in C:\xampp\htdocs\kas_silat\controllers\AnggotaController.php on line 14
+[11-Mar-2026 21:58:28 Asia/Jakarta] PHP Warning:  Undefined property: Router::$auth in C:\xampp\htdocs\kas_silat\controllers\AnggotaController.php on line 14
+[11-Mar-2026 21:58:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function hasRole() on null in C:\xampp\htdocs\kas_silat\controllers\AnggotaController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Router.php(140): require_once()
+#1 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('AnggotaControll...', 'index')
+#2 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('anggota')
+#3 {main}
+  thrown in C:\xampp\htdocs\kas_silat\controllers\AnggotaController.php on line 14
+[11-Mar-2026 22:08:44 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'km.updated_by' in 'on clause' in C:\xampp\htdocs\kas_silat\core\Database.php:39
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(39): PDO->prepare('SELECT km.*, \r\n...')
+#1 C:\xampp\htdocs\kas_silat\models\KasMasuk.php(140): Database->query('SELECT km.*, \r\n...')
+#2 C:\xampp\htdocs\kas_silat\controllers\KasMasukController.php(177): KasMasuk->getWithDetail('10')
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): KasMasukController->edit('10')
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('KasMasukControl...', 'edit')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('kas-masuk/edit/...')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 39
+[11-Mar-2026 22:08:49 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'km.updated_by' in 'on clause' in C:\xampp\htdocs\kas_silat\core\Database.php:39
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(39): PDO->prepare('SELECT km.*, \r\n...')
+#1 C:\xampp\htdocs\kas_silat\models\KasMasuk.php(140): Database->query('SELECT km.*, \r\n...')
+#2 C:\xampp\htdocs\kas_silat\controllers\KasMasukController.php(338): KasMasuk->getWithDetail('10')
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): KasMasukController->show('10')
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('KasMasukControl...', 'show')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('kas-masuk/show/...')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 39
+[11-Mar-2026 22:09:56 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'km.updated_by' in 'on clause' in C:\xampp\htdocs\kas_silat\core\Database.php:39
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(39): PDO->prepare('SELECT km.*, \r\n...')
+#1 C:\xampp\htdocs\kas_silat\models\KasMasuk.php(140): Database->query('SELECT km.*, \r\n...')
+#2 C:\xampp\htdocs\kas_silat\controllers\KasMasukController.php(338): KasMasuk->getWithDetail('10')
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): KasMasukController->show('10')
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('KasMasukControl...', 'show')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('kas-masuk/show/...')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 39
+[11-Mar-2026 22:48:23 Asia/Jakarta] PHP Fatal error:  Uncaught Exception: View laporan/print tidak ditemukan in C:\xampp\htdocs\kas_silat\core\Controller.php:45
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\controllers\LaporanController.php(266): Controller->view('laporan/print', Array)
+#1 C:\xampp\htdocs\kas_silat\core\Router.php(146): LaporanController->print()
+#2 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('LaporanControll...', 'print')
+#3 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('laporan/print')
+#4 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Controller.php on line 45
+[12-Mar-2026 12:02:49 Asia/Jakarta] PHP Fatal error:  Uncaught Exception: View laporan/rekap_anggota tidak ditemukan in C:\xampp\htdocs\kas_silat\core\Controller.php:45
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('laporan/rekap_a...', Array)
+#1 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#3 C:\xampp\htdocs\kas_silat\controllers\LaporanController.php(97): Controller->render('laporan/rekap_a...', Array, 'layouts/main')
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(146): LaporanController->rekapAnggota()
+#5 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('LaporanControll...', 'rekapAnggota')
+#6 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('laporan/rekap-a...')
+#7 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Controller.php on line 45
+[12-Mar-2026 14:59:57 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'KM-2026030001' for key 'no_transaksi' in C:\xampp\htdocs\kas_silat\core\Database.php:74
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(74): PDOStatement->execute()
+#1 C:\xampp\htdocs\kas_silat\core\Model.php(84): Database->execute()
+#2 C:\xampp\htdocs\kas_silat\controllers\KasMasukController.php(156): Model->create(Array)
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): KasMasukController->store()
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('KasMasukControl...', 'store')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('kas-masuk/store')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 74
+[12-Mar-2026 15:08:28 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'KM-2026030001' for key 'no_transaksi' in C:\xampp\htdocs\kas_silat\core\Database.php:74
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(74): PDOStatement->execute()
+#1 C:\xampp\htdocs\kas_silat\core\Model.php(84): Database->execute()
+#2 C:\xampp\htdocs\kas_silat\controllers\KasMasukController.php(156): Model->create(Array)
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): KasMasukController->store()
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('KasMasukControl...', 'store')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('kas-masuk/store')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 74
+[12-Mar-2026 16:10:17 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'km.no_transaksi' in 'field list' in C:\xampp\htdocs\kas_silat\core\Database.php:39
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(39): PDO->prepare('SELECT \r\n      ...')
+#1 C:\xampp\htdocs\kas_silat\models\Laporan.php(79): Database->query('SELECT \r\n      ...')
+#2 C:\xampp\htdocs\kas_silat\controllers\LaporanController.php(43): Laporan->getLaporanKasMasuk('2026-03-01', '2026-03-31')
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): LaporanController->kasMasuk()
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('LaporanControll...', 'kasMasuk')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('laporan/kas-mas...')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 39
+[12-Mar-2026 16:10:38 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:38 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:38 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:38 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:38 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:38 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:38 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:38 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:38 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:38 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:38 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:38 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:57 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:57 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:57 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:57 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:57 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:57 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:57 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:57 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:57 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:57 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:57 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 16:10:57 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 20:34:25 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.no_anggota' in 'field list' in C:\xampp\htdocs\kas_silat\core\Database.php:39
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(39): PDO->prepare('SELECT km.*, a....')
+#1 C:\xampp\htdocs\kas_silat\models\KasMasuk.php(50): Database->query('SELECT km.*, a....')
+#2 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(71): KasMasuk->getAllWithAnggota(1, 5)
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 39
+[12-Mar-2026 20:34:27 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.no_anggota' in 'field list' in C:\xampp\htdocs\kas_silat\core\Database.php:39
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(39): PDO->prepare('SELECT km.*, a....')
+#1 C:\xampp\htdocs\kas_silat\models\KasMasuk.php(50): Database->query('SELECT km.*, a....')
+#2 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(71): KasMasuk->getAllWithAnggota(1, 5)
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 39
+[12-Mar-2026 20:34:28 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.no_anggota' in 'field list' in C:\xampp\htdocs\kas_silat\core\Database.php:39
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(39): PDO->prepare('SELECT km.*, a....')
+#1 C:\xampp\htdocs\kas_silat\models\KasMasuk.php(50): Database->query('SELECT km.*, a....')
+#2 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(71): KasMasuk->getAllWithAnggota(1, 5)
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 39
+[12-Mar-2026 20:34:28 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.no_anggota' in 'field list' in C:\xampp\htdocs\kas_silat\core\Database.php:39
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(39): PDO->prepare('SELECT km.*, a....')
+#1 C:\xampp\htdocs\kas_silat\models\KasMasuk.php(50): Database->query('SELECT km.*, a....')
+#2 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(71): KasMasuk->getAllWithAnggota(1, 5)
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 39
+[12-Mar-2026 20:34:28 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.no_anggota' in 'field list' in C:\xampp\htdocs\kas_silat\core\Database.php:39
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(39): PDO->prepare('SELECT km.*, a....')
+#1 C:\xampp\htdocs\kas_silat\models\KasMasuk.php(50): Database->query('SELECT km.*, a....')
+#2 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(71): KasMasuk->getAllWithAnggota(1, 5)
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 39
+[12-Mar-2026 20:34:28 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.no_anggota' in 'field list' in C:\xampp\htdocs\kas_silat\core\Database.php:39
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(39): PDO->prepare('SELECT km.*, a....')
+#1 C:\xampp\htdocs\kas_silat\models\KasMasuk.php(50): Database->query('SELECT km.*, a....')
+#2 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(71): KasMasuk->getAllWithAnggota(1, 5)
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 39
+[12-Mar-2026 20:34:33 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.no_anggota' in 'field list' in C:\xampp\htdocs\kas_silat\core\Database.php:39
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(39): PDO->prepare('SELECT km.*, a....')
+#1 C:\xampp\htdocs\kas_silat\models\KasMasuk.php(50): Database->query('SELECT km.*, a....')
+#2 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(71): KasMasuk->getAllWithAnggota(1, 5)
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 39
+[12-Mar-2026 20:34:39 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.no_anggota' in 'field list' in C:\xampp\htdocs\kas_silat\core\Database.php:39
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(39): PDO->prepare('SELECT km.*, a....')
+#1 C:\xampp\htdocs\kas_silat\models\KasMasuk.php(50): Database->query('SELECT km.*, a....')
+#2 C:\xampp\htdocs\kas_silat\controllers\DashboardController.php(71): KasMasuk->getAllWithAnggota(1, 5)
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): DashboardController->index()
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('DashboardContro...', 'index')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('dashboard')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 39
+[12-Mar-2026 21:18:10 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:10 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:10 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:10 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:10 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:10 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:10 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:10 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:10 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:10 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:10 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:10 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:54 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:54 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:54 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:54 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:54 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:54 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:54 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:54 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:54 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:54 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:54 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:18:54 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\anggota\show.php on line 93
+[12-Mar-2026 21:50:45 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'km.no_transaksi' in 'field list' in C:\xampp\htdocs\kas_silat\core\Database.php:39
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(39): PDO->prepare('SELECT \r\n      ...')
+#1 C:\xampp\htdocs\kas_silat\models\Laporan.php(79): Database->query('SELECT \r\n      ...')
+#2 C:\xampp\htdocs\kas_silat\controllers\LaporanController.php(43): Laporan->getLaporanKasMasuk('2026-03-01', '2026-03-31')
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): LaporanController->kasMasuk()
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('LaporanControll...', 'kasMasuk')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('laporan/kas-mas...')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 39
+[12-Mar-2026 21:58:14 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.no_anggota' in 'field list' in C:\xampp\htdocs\kas_silat\core\Database.php:39
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(39): PDO->prepare('SELECT \r\n      ...')
+#1 C:\xampp\htdocs\kas_silat\models\Laporan.php(130): Database->query('SELECT \r\n      ...')
+#2 C:\xampp\htdocs\kas_silat\controllers\LaporanController.php(87): Laporan->getRekapPerAnggota('2026-03-01', '2026-03-31')
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): LaporanController->rekapAnggota()
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('LaporanControll...', 'rekapAnggota')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('laporan/rekap-a...')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 39
+[12-Mar-2026 22:01:47 Asia/Jakarta] PHP Warning:  Undefined array key "no_transaksi" in C:\xampp\htdocs\kas_silat\views\laporan\kas_keluar.php on line 105
+[12-Mar-2026 22:09:46 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.no_anggota' in 'field list' in C:\xampp\htdocs\kas_silat\core\Database.php:39
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(39): PDO->prepare('SELECT \r\n      ...')
+#1 C:\xampp\htdocs\kas_silat\models\Laporan.php(128): Database->query('SELECT \r\n      ...')
+#2 C:\xampp\htdocs\kas_silat\controllers\LaporanController.php(87): Laporan->getRekapPerAnggota('2026-03-01', '2026-03-31')
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): LaporanController->rekapAnggota()
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('LaporanControll...', 'rekapAnggota')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('laporan/rekap-a...')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 39
+[12-Mar-2026 22:09:52 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.no_anggota' in 'field list' in C:\xampp\htdocs\kas_silat\core\Database.php:39
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Database.php(39): PDO->prepare('SELECT \r\n      ...')
+#1 C:\xampp\htdocs\kas_silat\models\Laporan.php(128): Database->query('SELECT \r\n      ...')
+#2 C:\xampp\htdocs\kas_silat\controllers\LaporanController.php(87): Laporan->getRekapPerAnggota('2026-03-01', '2026-03-31')
+#3 C:\xampp\htdocs\kas_silat\core\Router.php(146): LaporanController->rekapAnggota()
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('LaporanControll...', 'rekapAnggota')
+#5 C:\xampp\htdocs\kas_silat\index.php(112): Router->dispatch('laporan/rekap-a...')
+#6 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Database.php on line 39
+[12-Mar-2026 22:29:31 Asia/Jakarta] PHP Fatal error:  Uncaught Exception: View users/edit tidak ditemukan in C:\xampp\htdocs\kas_silat\core\Controller.php:45
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('users/edit', Array)
+#1 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#3 C:\xampp\htdocs\kas_silat\controllers\UserController.php(159): Controller->render('users/edit', Array, 'layouts/main')
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(146): UserController->edit('3')
+#5 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('UserController', 'edit')
+#6 C:\xampp\htdocs\kas_silat\index.php(113): Router->dispatch('users/edit/3')
+#7 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Controller.php on line 45
+[12-Mar-2026 22:29:40 Asia/Jakarta] PHP Fatal error:  Uncaught Exception: View users/edit tidak ditemukan in C:\xampp\htdocs\kas_silat\core\Controller.php:45
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('users/edit', Array)
+#1 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#3 C:\xampp\htdocs\kas_silat\controllers\UserController.php(159): Controller->render('users/edit', Array, 'layouts/main')
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(146): UserController->edit('1')
+#5 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('UserController', 'edit')
+#6 C:\xampp\htdocs\kas_silat\index.php(113): Router->dispatch('users/edit/1')
+#7 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Controller.php on line 45
+[12-Mar-2026 22:29:53 Asia/Jakarta] PHP Fatal error:  Uncaught Exception: View users/edit tidak ditemukan in C:\xampp\htdocs\kas_silat\core\Controller.php:45
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('users/edit', Array)
+#1 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#3 C:\xampp\htdocs\kas_silat\controllers\UserController.php(159): Controller->render('users/edit', Array, 'layouts/main')
+#4 C:\xampp\htdocs\kas_silat\core\Router.php(146): UserController->edit('3')
+#5 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('UserController', 'edit')
+#6 C:\xampp\htdocs\kas_silat\index.php(113): Router->dispatch('users/edit/3')
+#7 {main}
+  thrown in C:\xampp\htdocs\kas_silat\core\Controller.php on line 45
+[14-Mar-2026 23:35:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function old() in C:\xampp\htdocs\kas_silat\views\users\create.php:66
+Stack trace:
+#0 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once()
+#1 C:\xampp\htdocs\kas_silat\views\layouts\main.php(16): Controller->view('users/create', Array)
+#2 C:\xampp\htdocs\kas_silat\core\Controller.php(43): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kas_silat\core\Controller.php(53): Controller->view('layouts/main', Array)
+#4 C:\xampp\htdocs\kas_silat\controllers\UserController.php(70): Controller->render('users/create', Array, 'layouts/main')
+#5 C:\xampp\htdocs\kas_silat\core\Router.php(146): UserController->create()
+#6 C:\xampp\htdocs\kas_silat\core\Router.php(72): Router->callController('UserController', 'create')
+#7 C:\xampp\htdocs\kas_silat\index.php(113): Router->dispatch('users/create')
+#8 {main}
+  thrown in C:\xampp\htdocs\kas_silat\views\users\create.php on line 66
